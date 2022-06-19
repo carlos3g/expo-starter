@@ -3,6 +3,11 @@
   "compilerOptions": {
     "strict": true,
     "baseUrl": ".",
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "strictFunctionTypes": true,
     "paths": {
       "~": ["./src"],
       "@assets": ["./src/assets"],
