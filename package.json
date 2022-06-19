@@ -1,21 +1,8 @@
 {
   "name": "expo-starter",
-  "version": "1.1.0",
-  "description": "A basic expo template",
-  "keywords": [
-    "expo",
-    "react-native",
-    "template",
-    "typescript"
-  ],
-  "homepage": "https://github.com/carlos3g/expo-starter#readme",
+  "version": "1.1.2",
   "license": "MIT",
-  "author": "Carlos Mesquita <carlosmesquita156@gmail.com> (https://carlos3g.github.io)",
   "main": "node_modules/expo/AppEntry.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/carlos3g/expo-starter"
-  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -37,6 +24,5 @@
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.67.6",
     "typescript": "~4.3.5"
-  },
-  "private": false
+  }
 }
