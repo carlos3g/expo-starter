@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Expo Starter",
+    "slug": "expo-starter",
+    "version": "1.0.0",
+    "githubUrl": "https://github.com/carlos3g/expo-starter",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#ededf1",
+    "primaryColor": "#5c6cfc",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ededf1"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "assetBundlePatterns": ["**/*"],
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ededf1"
+      }
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content"
+    },
+    "androidNavigationBar": {
+      "visible": "sticky-immersive",
+      "barStyle": "dark-content",
+      "backgroundColor": "#ededf1"
+    },
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    }
+  }
+}
