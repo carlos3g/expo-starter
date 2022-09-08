@@ -26,10 +26,10 @@
       }
     },
     "androidStatusBar": {
-      "barStyle": "dark-content"
+      "barStyle": "dark-content",
+      "backgroundColor": "#ededf1"
     },
     "androidNavigationBar": {
-      "visible": "sticky-immersive",
       "barStyle": "dark-content",
       "backgroundColor": "#ededf1"
     },
