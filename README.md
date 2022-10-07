@@ -14,16 +14,16 @@
 
 This is a basic expo template. It includes:
 
-- `Expo SDK 44`
-- Typescript configuration
-- Project file structure already made
-- Absolute paths with `babel-plugin-root-import`
-- Prettier
+- `Expo SDK 46`
+- Typescript _&_ Eslint _&_ Prettier
+- Husky _&_ Commitlint _&_ Lint staged
+- Scalable architecture
+- Relative paths with `babel-plugin-root-import`
 
 ## Table of contents
 
 - [Usage](#-usage)
-- [File Structure](#-file-structure)
+- [Architecture](#-architecture)
 - [How to contribute](#-how-to-contribute)
 - [License](#-license)
 
@@ -31,54 +31,78 @@ This is a basic expo template. It includes:
 
 ```bash
 # To use this template, just run:
-expo init my-app --template=expo-starter
+npx expo init my-app --template=expo-starter
 ```
 
-## 📂 File Structure
+## 📂 Architecture
 
-> This file structure includes the existing files and recommended files
+> Feel free to change this as You need
 
 ```
-expo-starter
+my-app
 ├── src => Project's files
-│   ├── assets => Static assets. Includes splash screen, favicon and app-icon
+│   ├── assets => Static assets. Includes splash screen, favicon and app-icon.
 │   │
-│   ├── components => Re-usable UI components
+│   ├── components => Global re-usable UI components.
+│   │   ├── [Component]
+│   │   │   ├── index.ts => export component
+│   │   │   │
+│   │   │   └── styles.ts => exports local style sheets.
+│   │   │
+│   │   └── index.ts => exports all components
 │   │
-│   ├── hooks => Custom hook components
+│   ├── enums => Enums
 │   │
-│   ├── navigation => Navigators
+│   ├── hooks => Custom hooks.
 │   │
-│   ├── providers => Custom providers that use Context API
+│   ├── interfaces => Typescript custom types/interfaces.
 │   │
-│   ├── screens => Screens
+│   ├── models => Entities types/interfaces
 │   │
-│   ├── services => Services files configs such as API's and firebase
+│   ├── navigation => Navigators.
+│   │   └── index.ts => export main navigator
 │   │
-│   ├── styles => Styles data such as colors, fonts...
+│   ├── providers => Custom providers.
 │   │
-│   └── types.ts => Typescript custom types and interfaces
+│   ├── screens => Screens.
+│   │   ├── [Screen]
+│   │   │   ├── [Local Component]
+│   │   │   │   ├── index.ts => export component
+│   │   │   │   │
+│   │   │   │   └── styles.ts => exports local style sheets.
+│   │   │   │
+│   │   │   ├── index.ts => export screen
+│   │   │   │
+│   │   │   └── styles.ts => exports local style sheets.
+│   │   │
+│   │   └── index.ts => exports all screens
+│   │
+│   ├── services => Services files configs such as API's and firebase.
+│   │
+│   └── styles => Styles data such as colors, fonts...
 │
-├── .prettirrc => Prettier config file
-├── app.json => Expo config file
-├── App.tsx => Entry Point. Wrap all providers here
-├── babel.config.ts => Babel config file
-└── tscondig.json => TypeScript config file
+├── .editorconfig => Cross editor config.
+├── .eslintrc.js => Eslint config.
+├── .lintstagedrc.json => Lint staged config.
+├── .prettirrc => Prettier config.
+├── app.config.json => Expo config.
+├── App.tsx => Entry Point.
+├── babel.config.ts => Babel config.
+├── commitlint.config.js => Commit lint config.
+└── tscondig.json => TypeScript config.
 ```
 
 ## 🤝 How to contribute
 
-Every kind of contribution is welcome, I admire it!
+- Is there any problem? Found a bug? Do you have any tips? Open an [issue](https://github.com/carlos3g/expo-starter/issues) describing it.
 
-Is there any problem? Found a bug? Do you have any tips? Open an [issue](https://github.com/carlos3g/expo-starter/issues) describing it.
+- Want to contribute code? First read [this contribution guide](https://github.com/firstcontributions/first-contributions)
 
-Want to contribute code? First read [this contribution guide](https://github.com/firstcontributions/first-contributions)
-
-Don't forget to leave your ⭐, it is also a way to contribute to the project;)
+- Don't forget to leave your star ⭐, it is also a way to contribute to the project
 
 ## 📝 License
 
-This project is under the MIT license. See the file [LICENSE](LICENSE) for more details.
+This project is under the MIT license. See [LICENSE](LICENSE) for more details.
 
 ---
 
