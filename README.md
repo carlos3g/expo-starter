@@ -31,7 +31,7 @@ This is a basic expo template. It includes:
 
 ```bash
 # To use this template, just run:
-npx expo init my-app --template=expo-starter
+npx create-expo-app my-app --template expo-starter
 ```
 
 ## 📂 Architecture
