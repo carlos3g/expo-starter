@@ -13,12 +13,14 @@
       "@assets": ["./src/assets"],
       "@navigation": ["./src/navigation"],
       "@components": ["./src/components"],
+      "@enums": ["./src/enums"],
       "@hooks": ["./src/hooks"],
+      "@interfaces": ["./src/interfaces"],
+      "@models": ["./src/models"],
       "@providers": ["./src/providers"],
       "@screens": ["./src/screens"],
       "@services": ["./src/services"],
-      "@styles": ["./src/styles"],
-      "@types": ["./src/types.ts"]
+      "@styles": ["./src/styles"]
     }
   }
 }
