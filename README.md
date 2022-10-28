@@ -40,20 +40,20 @@ npx create-expo-app my-app --template expo-starter
 
 ```
 my-app
-├── src => Project's files
-│   ├── assets => Static assets. Includes splash screen, favicon and app-icon.
+├── src
+│   ├── assets
 │   │
-│   ├── components => Global re-usable UI components.
-│   │   ├── [Component]
+│   ├── components
+│   │   ├── [Global Component]
 │   │   │   ├── index.ts => export component
 │   │   │   │
-│   │   │   └── styles.ts => exports local style sheets.
+│   │   │   └── styles.ts
 │   │   │
 │   │   └── index.ts => exports all components
 │   │
-│   ├── enums => Enums
+│   ├── enums
 │   │
-│   ├── hooks => Custom hooks.
+│   ├── hooks
 │   │
 │   ├── interfaces => Typescript custom types/interfaces.
 │   │
@@ -62,18 +62,18 @@ my-app
 │   ├── navigation => Navigators.
 │   │   └── index.ts => export main navigator
 │   │
-│   ├── providers => Custom providers.
+│   ├── providers
 │   │
-│   ├── screens => Screens.
+│   ├── screens
 │   │   ├── [Screen]
 │   │   │   ├── [Local Component]
 │   │   │   │   ├── index.ts => export component
 │   │   │   │   │
-│   │   │   │   └── styles.ts => exports local style sheets.
+│   │   │   │   └── styles.ts
 │   │   │   │
 │   │   │   ├── index.ts => export screen
 │   │   │   │
-│   │   │   └── styles.ts => exports local style sheets.
+│   │   │   └── styles.ts
 │   │   │
 │   │   └── index.ts => exports all screens
 │   │
@@ -81,15 +81,15 @@ my-app
 │   │
 │   └── styles => Styles data such as colors, fonts...
 │
-├── .editorconfig => Cross editor config.
-├── .eslintrc.js => Eslint config.
-├── .lintstagedrc.json => Lint staged config.
-├── .prettirrc => Prettier config.
-├── app.config.json => Expo config.
-├── App.tsx => Entry Point.
-├── babel.config.ts => Babel config.
-├── commitlint.config.js => Commit lint config.
-└── tscondig.json => TypeScript config.
+├── .editorconfig
+├── .eslintrc.js
+├── .lintstagedrc.json
+├── .prettirrc
+├── app.config.json
+├── App.tsx
+├── babel.config.ts
+├── commitlint.config.js
+└── tscondig.json
 ```
 
 ## 🤝 How to contribute
