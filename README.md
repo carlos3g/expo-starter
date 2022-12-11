@@ -14,7 +14,7 @@
 
 This is a basic expo template. It includes:
 
-- `Expo SDK 46`
+- `Expo SDK 47`
 - Typescript _&_ Eslint _&_ Prettier
 - Husky _&_ Commitlint _&_ Lint staged
 - Scalable architecture
