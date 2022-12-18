@@ -41,5 +41,6 @@ module.exports = {
     'import/prefer-default-export': 0,
     '@typescript-eslint/unbound-method': 0,
     'global-require': 0,
+    'react/jsx-props-no-spreading': 0,
   },
 };

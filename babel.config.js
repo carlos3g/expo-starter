@@ -17,6 +17,10 @@ const importOptions = {
       rootPathPrefix: '@components',
     },
     {
+      rootPathSuffix: './src/config',
+      rootPathPrefix: '@config',
+    },
+    {
       rootPathSuffix: './src/enums',
       rootPathPrefix: '@enums',
     },
@@ -47,6 +51,10 @@ const importOptions = {
     {
       rootPathSuffix: './src/styles',
       rootPathPrefix: '@styles',
+    },
+    {
+      rootPathSuffix: './src/translations',
+      rootPathPrefix: '@translations',
     },
   ],
 };

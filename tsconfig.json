@@ -13,6 +13,7 @@
       "@assets": ["./src/assets"],
       "@navigation": ["./src/navigation"],
       "@components": ["./src/components"],
+      "@config": ["./src/config"],
       "@enums": ["./src/enums"],
       "@hooks": ["./src/hooks"],
       "@interfaces": ["./src/interfaces"],
@@ -20,7 +21,8 @@
       "@providers": ["./src/providers"],
       "@screens": ["./src/screens"],
       "@services": ["./src/services"],
-      "@styles": ["./src/styles"]
+      "@styles": ["./src/styles"],
+      "@translations": ["./src/translations"]
     }
   }
 }
